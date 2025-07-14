@@ -22,3 +22,9 @@ clean:
 ## test: runs all tests
 test:
 	go test -v ./...
+
+
+## just typikng on my keyboard
+tidy:
+	@echo "Am tidying..."
+	go mod tidy
